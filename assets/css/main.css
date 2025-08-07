@@ -121,7 +121,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 1rem;
 			}
 
 		}
@@ -129,7 +129,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 1.05rem;
 				letter-spacing: 0.0375em;
 			}
 
@@ -2612,19 +2612,19 @@ input, select, textarea {
 			}
 
 			.features li:nth-child(1) {
-				border-top-left-radius: 3px;
+				/* border-top-left-radius: 3px; */
 			}
 
 			.features li:nth-child(2) {
-				border-top-right-radius: 3px;
+				/* border-top-right-radius: 3px; */
 			}
 
 			.features li:nth-last-child(1) {
-				border-bottom-right-radius: 3px;
+				/* border-bottom-right-radius: 3px; */
 			}
 
 			.features li:nth-last-child(2) {
-				border-bottom-left-radius: 3px;
+				/* border-bottom-left-radius: 3px; */
 			}
 
 			@media screen and (max-width: 980px) {
@@ -2774,6 +2774,15 @@ input, select, textarea {
 					text-align: center;
 					width: 100%;
 				}
+
+				.spotlight .image img {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					max-width: 100%;
+					height: auto;
+				}
+
 
 		}
 
@@ -2976,7 +2985,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #FF8C00;
 		}
 
 		.wrapper.style3 {
@@ -4014,6 +4023,7 @@ input, select, textarea {
   margin-bottom: 0px;        /* spacing between list items */
   list-style: none;           /* optional: remove default bullet */
   border-radius: 15px;         /* optional: rounded corners */
+	overflow: hidden;
 }
 
 .che-khuc-bach-background {
